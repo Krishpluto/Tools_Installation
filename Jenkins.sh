@@ -1,11 +1,18 @@
-sudo apt update 
+#!/bin/bash
 
-##Installing maven will automatically install java
+# Update package lists
+sudo apt update
+
+# Install Maven (automatically installs Java)
 sudo apt install maven -y
+
+# Check Java version
 java --version
+
+# Check Maven version
 mvn -v
 
-##Install Jenkins
+# Install Jenkins
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
 echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \

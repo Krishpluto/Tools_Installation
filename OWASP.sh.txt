@@ -1,9 +1,0 @@
-##Dependency-Check requires Java to run. If you don't have Java installed, you can install it using the following commands
-##sudo apt update
-##sudo apt install default-jdk
-
-wget https://github.com/jeremylong/DependencyCheck/releases/download/v9.0.9/dependency-check-9.0.9-release.zip
-unzip dependency-check-6.2.1-release.zip
-
-cd dependency-check
-./dependency-check.sh  --scan /home/ubuntu/project-name/**

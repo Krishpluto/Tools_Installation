@@ -1,7 +1,0 @@
-sudo apt update
-sudo apt install docker.io -y
-sudo usermod -aG docker ubuntu
-newgrp docker
-
-##To test
-docker pull hello-world
